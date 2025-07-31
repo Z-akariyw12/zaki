@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: white;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #1e293b;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #facc15;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 3px solid #facc15;
+}
+
+#hero h2 span {
+  color: #facc15;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.skill-bar {
+  background: #334155;
+  border-radius: 10px;
+  margin: 1rem 0;
+  position: relative;
+  height: 20px;
+}
+
+.skill-bar span {
+  position: absolute;
+  left: 10px;
+  top: -25px;
+}
+
+.skill-bar div {
+  background: #facc15;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.project-card {
+  background: #1e293b;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #1e293b;
+  margin-top: 2rem;
+}
+section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease;
+}
